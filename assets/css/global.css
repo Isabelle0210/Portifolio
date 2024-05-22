@@ -1,0 +1,23 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --rosa: #e44b88;
+    --rosa-escuro: #7f2a86;
+    --azul-escuro: #638ae6;
+    --azul-claro: #7D91C1;
+    --roxo: #7D52AC;
+    --vermelho: #A83042;
+    --gradiente-branco: linear-gradient(90deg, rgba(211,210,228,1) 0%, rgba(240,228,239,1) 35%, rgba(255,255,255,0.5886729691876751) 100%);
+    --gradiente-rosa: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 35%, rgba(145, 48, 127, 0.589) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@counter-style thumbs{
+    system: cyclic;
+    symbols: 👤 📍 📱 ✉️;
+    suffix: " ";
+}
