@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Isabelle C S Cezar</title>
-
+    <title>Isabelle C S Cezar</title>
+    <link rel="icon" href="assets/icons/heart.svg">
     <!-- normalize css -->
     <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -15,59 +15,60 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="line"></div>
+
     <header class="header">
-        
-        <main class="main__container">
-            <section class="section__informacoes">
-                <div class="foto__container">
-                    <img src="./assets/img/Foto_Minha .png" alt="">
+
+        <main class="main">
+
+            <section class="section__info">
+                <div class="section__title">
+                    <img src="assets/img/Foto_Minha .png" alt="">
+                    <h1 class="title" id="dynamicText">Isabelle Caroline</h1>
                 </div>
-                <div class="informacoes__container">
-                    <h4>Olá, eu sou a Isabelle Cezar</h4>
-                    <ul>
-                        <li>Front End Developer</li>
-                        <li>Sertãozinho - SP</li>
-                        <li> +55(16)99447-5251</li>
-                        <li>isabelleisa646@gmail.com</li>
+
+                <div>
+                    <ul class="list__info" >
+                        <li><a href="#Sobre">Sobre</a></li>
+                        <li><a href="#Projetos">Projetos</a></li>
+                        <li><a href="#Redes_Sociais">Redes Sociais</a></li>
                     </ul>
                 </div>
             </section>
 
-            <section class="section__listas">
-                <div class="acordeon open">
-                    <button class="acordeon__btn" type="button">
-                        <span class="title">
-                            Idiomas
-                        </span>
-                    </button>
 
-                    <div class="acordeon__content">
-                        <ul>
-                            <li>Portugues</li>
-                            <li>Ingles</li>
-                        </ul>
+            <section class="section__sobre" id="Sobre">
+                <h2>Sobre mim:</h2>
+                <div class="cartao__container">
+                    <div class="cartao__info">
+                        <h4>Por que do meu interesse em tecnologia:</h4>
+                        <p>
+                            Meu interesse por tecnologia começou entre 2020 e 2021, quando acompanhei, ainda que indiretamente, o progresso do meu namorado em um curso de tecnologia no SENAI. Ele me explicava diversos conceitos, o que despertou minha curiosidade. Ele me emprestou uma conta com acesso a um curso de lógica de programação, que concluí completamente, aumentando meu desejo de aprender mais.
+                        </p>
+                        <p>
+                            Após concluir o ensino médio no final de 2022, iniciei um curso de desenvolvimento web, onde me apaixonei pela área. Em 2023, consegui uma posição como aprendiz na área de TI, o que me deixou muito empolgada. Também comecei cursos de desenvolvimento de jogos com Unity, mas percebi que preferia desenvolvimento web.
+                        </p>
+                            
+                        <p>
+                            Em 2024, comecei a faculdade de Engenharia de Software e fui efetivada no meu trabalho de aprendiz, passando a atuar como Auxiliar na área. Além disso, assinei uma plataforma de cursos, o que me permitiu aprofundar ainda mais meus conhecimentos.
+                        </p>
+                            
+                        
+                    </div>
+                    <div class="cartao__info">
+                        <h4>Curiosidades sobre mim:</h4>
+                        <ol>
+                            <li>Eu amo gatos</li>
+                        </ol>
                     </div>
                 </div>
-                <div class="acordeon open">
-                    <button class="acordeon__btn" type="button">
-                        <span class="title">
-                            Portifólio
-                        </span>
-                    </button>
-
-                    <div class="acordeon__content">
-                        <ul>
-                            <li>Portugues</li>
-                            <li>Ingles</li>
-                        </ul>
-                    </div>
-                </div>
+                
             </section>
         </main>
+
     </header>
 
     <Script src="/assets/javascript/acordeon.js"></Script>
