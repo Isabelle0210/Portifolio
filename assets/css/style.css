@@ -174,9 +174,10 @@
     font-size: 1.2rem;
     list-style:disc ;
 }
-.skills__tools ul li img{
+
+#profile.skills.hardSkills ul li img{
     width: 50px;
-    height: 50px;
+    height: 0;
 }
 /*keyframes*/
 @media  screen and (max-width: 468px) {
