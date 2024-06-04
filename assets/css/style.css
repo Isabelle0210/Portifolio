@@ -168,6 +168,7 @@
     gap: 20px;
     padding-top: 3vh;
     padding-left: 3vh;
+    padding-bottom: 2vh;
 }
 .skills__tools li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -182,46 +183,4 @@
 .list__skills li{
     list-style-type: none;
 
-}
-/*keyframes*/
-@media  screen and (max-width: 468px) {
-    .title{
-        font-size: 3rem;
-    }
-    .list__info{
-        flex-direction: column;
-        gap: 10px;
-    }
-    .cartao__container{
-        flex-direction: column;
-    }
-    .section__info{
-        width: 468px;
-        height: auto;
-    }
-    .section__title{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        justify-items: center;
-        gap: 5px;
-    }
-    .section__sobre{
-        height: auto;
-    }
-    li{
-        font-size: 2rem;
-    }
-    .cartao__info{
-        width: 80%;
-        height: 50vh;                 /* Esconde o excesso de texto */
-    }
-    .cartao__info h4{
-        font-size: 1.5rem;
-    }
-    .cartao__info p{
-        font-size: 1.3rem;
-    }
-    .cartao__info li{
-        font-size: 1.3rem;
-    }
 }

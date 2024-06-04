@@ -1,5 +1,5 @@
 /*keyframes*/
-@media  screen and (max-width: 468px) {
+@media  (max-width: 1489px) and (min-width: 367px) {
     .title{
         font-size: 3rem;
     }
@@ -11,7 +11,7 @@
         flex-direction: column;
     }
     .section__info{
-        width: 468px;
+        width: 100%;
         height: auto;
     }
     .section__title{
@@ -52,9 +52,9 @@
     }
 }
 /*keyframes*/
-@media  screen and (max-width: 368px) {
+@media (max-width: 368px) and (min-width: 300px) {
     .title{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .list__info{
         flex-direction: column;
@@ -64,7 +64,7 @@
         flex-direction: column;
     }
     .section__info{
-        width: 368px;
+        width: 100%;
         height: auto;
     }
     .section__title{
