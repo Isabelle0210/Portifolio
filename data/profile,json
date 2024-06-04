@@ -7,7 +7,7 @@
       "hardSkills": [
         {
           "name": "JavaScript",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/js.png"
+          "logo": "https://raw.githubusercontent.com/Isabelle0210/Portifolio/main/data/imgs/js.png"
         },
         {
           "name": "HTML",
@@ -15,19 +15,19 @@
         },
         {
           "name": "CSS",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/css.png"
+          "logo": "https://raw.githubusercontent.com/Isabelle0210/Portifolio/main/data/imgs/css.png"
         },
         {
           "name": "GITHUB",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/github.png"
+          "logo": "https://raw.githubusercontent.com/Isabelle0210/Portifolio/main/data/imgs/github.png"
         },
         {
           "name": "REACT",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/react.png"
+          "logo": "https://raw.githubusercontent.com/Isabelle0210/Portifolio/main/data/imgs/react.png"
         },
         {
           "name": "MYSQL",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/mysql.png"
+          "logo": "https://raw.githubusercontent.com/Isabelle0210/Portifolio/main/data/imgs/mysql.png"
         }
       ],
       "softSkills": [
