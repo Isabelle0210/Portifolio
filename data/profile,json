@@ -7,27 +7,27 @@
       "hardSkills": [
         {
           "name": "JavaScript",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/assets/img/tools/javascript.svg"
+          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/js.png"
         },
         {
           "name": "HTML",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/assets/img/tools/html.svg"
+          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/html.png"
         },
         {
           "name": "CSS",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/assets/img/tools/css.svg"
+          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/css.png"
         },
         {
           "name": "GITHUB",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/assets/img/tools/github.svg"
+          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/github.png"
         },
         {
           "name": "REACT",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/assets/img/tools/react.svg"
+          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/react.png"
         },
         {
           "name": "MYSQL",
-          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/assets/img/tools/mysql.svg"
+          "logo": "https://github.com/Isabelle0210/Portifolio/blob/main/data/imgs/mysql.png"
         }
       ],
       "softSkills": [
