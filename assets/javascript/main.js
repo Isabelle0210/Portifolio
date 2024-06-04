@@ -14,7 +14,14 @@ function novaProfileInfo(profileData){
     job.innerText = profileData.job
 }
 
+function updateSoftSkills(profileData){
+    const softSkills = document.getElementById('profile.skills.softSkills')
+    
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+
+}
 (async function(){
     const profileData = await fetchProfileData();
     novaProfileInfo(profileData);
+    updateSoftSkills(profileData);
 })()
